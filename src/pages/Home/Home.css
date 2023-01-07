@@ -1,0 +1,180 @@
+.home-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.get-started-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.left-panel {
+  width: 50%;
+}
+
+.claim-quote {
+  color: #5760ec;
+  font-size: 1.5vw;
+}
+
+.get-started--text {
+  font-size: 3.5vw;
+  line-height: 4.2vw;
+  margin: 12px 0 22px 0;
+}
+
+.span-get-started--text {
+  text-decoration: underline;
+  text-decoration-color: #ffa500;
+}
+
+.uae-offshore--text {
+  color: #5760ec;
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+
+.uae-subtext {
+  font-size: 20px;
+  font-weight: 600;
+  color: #acadac;
+  width: 70%;
+}
+
+.get-started--footer-action {
+  display: flex;
+}
+
+.right-panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.study-image {
+  width: 100%;
+  height: 500px;
+}
+
+.mobile-left-panel-header {
+  display: none;
+}
+
+.watch-video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 60px 0;
+  color: #5760ec;
+  font-size: 1.4vw;
+  font-weight: 500;
+}
+
+.play-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #5760ec;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.play-icon > img {
+  margin-top: -3px;
+  margin-left: -1px;
+}
+
+.watch-video-content {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .home-wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .get-started-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 12px;
+  }
+
+  .left-panel {
+    width: 100%;
+  }
+
+  .right-panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .study-image {
+    width: 100%;
+    height: 500px;
+  }
+
+  .uae-subtext {
+    width: 100%;
+  }
+
+  .mobile-left-panel-header {
+    display: block;
+    margin-top: 60px;
+  }
+
+  .claim-quote {
+    color: #5760ec;
+    font-size: 4.5vw;
+    font-weight: 800;
+  }
+
+  .get-started--text {
+    font-size: 6vw;
+    line-height: 8vw;
+    margin: 12px 0 22px 0;
+  }
+
+  .left-panel-header {
+    display: none;
+  }
+
+  .get-started--footer-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+  }
+
+  .watch-video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #5760ec;
+    font-size: 3.3vw;
+    font-weight: 500;
+    width: 60%;
+    margin: 60px auto;
+  }
+
+  .play-icon {
+    border: 2px solid #5760ec;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  .watch-video-content {
+    display: block;
+  }
+}
