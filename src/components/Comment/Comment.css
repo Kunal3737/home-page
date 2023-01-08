@@ -1,0 +1,39 @@
+.comment-card-containter {
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+.comment-top-wrapper {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.comment-top-image-container {
+  width: 110px;
+}
+
+.comment-card--image {
+  padding: 10px;
+  border: 2px solid #5f69ee;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.comment-card-comment-text {
+  font-size: 1.125rem;
+}
+
+.comment-bottom-wrapper {
+  display: flex;
+}
+
+.comment-author-wrapper {
+  width: 95px;
+}
+
+.comment-author-indicator {
+  background-color: #5f69ee;
+  height: 4px;
+  width: 60px;
+  margin: 12px 0 0 10px;
+}

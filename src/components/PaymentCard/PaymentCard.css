@@ -1,0 +1,100 @@
+.payment-card-wrapper {
+  border-radius: 4px;
+
+  flex: 1;
+  /* color: #fff; */
+  padding: 15px 30px;
+}
+
+.hasBackground {
+  background-color: #5760ec;
+}
+
+.payment-card-wrapper:hover {
+  /* background-color: #5760ec; */
+
+  transform: scale(1.05);
+  transition: transform 0.2s;
+}
+
+.payment-card-wrapper:hover > * {
+  /* color: #fff !important; */
+}
+
+.hasBackground .payment-card--location {
+  color: #fff;
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+}
+
+.payment-card--location {
+  color: #5760ec;
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+}
+
+.payment-card--cost-wrapper {
+  margin-bottom: 12px;
+}
+
+.hasBackground .payment-card--cost {
+  font-size: 1.75rem;
+  color: #fff;
+  font-weight: 900;
+}
+
+.payment-card--cost {
+  font-size: 1.75rem;
+  color: #5760ec;
+  font-weight: 900;
+}
+
+.hasBackground .payment-frequency {
+  color: #fff;
+}
+
+.payment-frequency {
+  color: #adadad;
+}
+
+.hasBackground .payment-card--company-name {
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.payment-card--company-name {
+  color: #5760ec;
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.payment-card--list-wrapper {
+  margin-bottom: 12px;
+}
+
+.hasBackground .feature-list-item-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  color: #fff;
+}
+
+.feature-list-item-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  color: #5760ec;
+}
+
+.feature-list-item-wrapper > img {
+  margin-right: 8px;
+}
+
+@media (max-width: 768px) {
+  .payment-card-wrapper {
+    border: 2px solid #cacaca;
+  }
+}

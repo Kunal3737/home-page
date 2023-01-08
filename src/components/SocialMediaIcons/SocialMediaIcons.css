@@ -1,0 +1,13 @@
+.social-media-icons-wrapper > img {
+  margin-right: 30px;
+}
+
+@media (max-width: 768px) {
+  .social-media-icons-wrapper {
+    margin-top: 20px;
+  }
+
+  .social-media-icons-wrapper > img {
+    margin-right: 20px;
+  }
+}

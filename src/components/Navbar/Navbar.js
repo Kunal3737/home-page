@@ -17,18 +17,18 @@ const Navbar = () => {
           onClick={() => setMobile(false)}
         >
           <Link to="/" className="home">
-            <li>Home</li>
+            <li className="nav-items">Home</li>
           </Link>
           <Link to="/services" className="services">
-            <li>Services</li>
+            <li className="nav-items">Services</li>
           </Link>
           <Link to="/pricing" className="pricing">
-            <li>Pricing</li>
+            <li className="nav-items">Pricing</li>
           </Link>
           <Link to="/about" className="about">
-            <li>About</li>
+            <li className="nav-items">About</li>
           </Link>
-          <li>
+          <li className="nav-items">
             <Button size="lg" color="primary" content="Start a Company" />
           </li>
         </ul>

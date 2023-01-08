@@ -1,0 +1,19 @@
+.footer-item-wrapper {
+  margin-bottom: 30px;
+}
+
+.footer-item--title {
+  margin-bottom: 10px;
+}
+
+.footer-item--list {
+  font-size: 1.125rem;
+  color: #adadad;
+}
+
+@media (max-width: 768px) {
+  .footer-item-wrapper {
+    margin-bottom: 30px;
+    width: 50%;
+  }
+}

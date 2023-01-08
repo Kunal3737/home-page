@@ -1,0 +1,17 @@
+.carousel-wrapper {
+  margin-top: 40px;
+}
+
+.rec-carousel > button {
+  display: none;
+}
+
+.rec-carousel {
+  padding-bottom: 10px;
+}
+
+.rec .rec-swipable {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+}

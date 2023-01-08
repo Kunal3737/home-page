@@ -1,6 +1,7 @@
 .home-wrapper {
   width: 90%;
   margin: 0 auto;
+  padding-bottom: 40px;
 }
 
 .get-started-wrapper {
@@ -31,12 +32,12 @@
 
 .uae-offshore--text {
   color: #5760ec;
-  font-size: 20px;
+  font-size: 1.25rem;
   margin-bottom: 18px;
 }
 
 .uae-subtext {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   color: #acadac;
   width: 70%;
@@ -91,6 +92,148 @@
 .watch-video-content {
   display: flex;
   align-items: center;
+}
+
+.mission-dedication {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.dedicated--text > span {
+  border-bottom: 5px solid #ffa500;
+}
+
+.mission-dedication--subtext {
+  margin: 20px 0 80px 0;
+  color: #adadad;
+  font-size: 3vh;
+}
+
+.company-reg--wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.company-benefits {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.company-benefits--mobile {
+  display: none;
+}
+
+.company-benefits--left-panel {
+  width: 40%;
+}
+
+.company-benefits--right-panel {
+  width: 40%;
+}
+
+.company-benefits-title--wrapper {
+  margin-bottom: 100px;
+}
+
+.company-benefits-title--wrapper-bottom {
+  margin-top: -120px;
+}
+
+.company-benefits-title {
+  margin-bottom: 15px;
+  color: #373737;
+}
+
+.company-benefits--action {
+  color: #5f69ee;
+  font-size: 1.125rem;
+  display: flex;
+  align-items: center;
+}
+
+.company-benefits--action > img {
+  margin-left: 12px;
+  width: 20px;
+  height: 20px;
+}
+
+.company-benefits--action2 {
+  color: #5f69ee;
+  font-size: 1.125rem;
+  display: flex;
+  align-items: center;
+}
+
+.company-benefits--action2 > img {
+  margin-left: 12px;
+  width: 20px;
+  height: 20px;
+}
+
+.affordable-pricing--text {
+  text-align: center;
+  font-size: 1.75rem;
+  width: 50%;
+  margin: 0 auto 100px auto;
+  line-height: 45px;
+  letter-spacing: 0.1px;
+}
+
+.popular-pricing--underline {
+  border-bottom: 5px solid #ffa500;
+}
+
+.payment-section {
+  width: 90%;
+  margin: 30px auto 120px auto;
+  display: flex;
+}
+
+.blog-footer-wrapper {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.blog-footer--left-section {
+  width: 40%;
+}
+
+.blog-footer--right-section {
+  width: 40%;
+}
+
+.blog-footer-content-wrapper {
+  padding-left: 30px;
+}
+
+.email-address {
+  height: 60px;
+  width: 70%;
+  border: none;
+  background-color: #f5f5f5;
+  padding-left: 20px;
+  font-size: 1.125rem;
+}
+
+.email-address input::placeholder {
+  color: #adadad;
+}
+
+.email-add-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.email-add-sent-img {
+  width: 60px;
+  height: 60px;
 }
 
 @media (max-width: 768px) {
@@ -176,5 +319,103 @@
 
   .watch-video-content {
     display: block;
+  }
+
+  .mission-dedication {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .company-reg--wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+
+  .company-benefits {
+    display: none;
+  }
+
+  .company-benefits--mobile {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .company-benefits--left-panel {
+    width: 100%;
+  }
+
+  .company-benefits--right-panel {
+    width: 100%;
+  }
+
+  .company-benefits-title--wrapper {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 50px auto;
+  }
+
+  .company-benefits-title--wrapper-bottom {
+    text-align: left;
+    width: 60%;
+    margin: -20px auto 0px auto;
+  }
+
+  .company-benefits--action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .affordable-pricing--text {
+    display: none;
+  }
+
+  .blog-footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 30px auto 0 auto;
+    align-items: center;
+    /* justify-content: space-between; */
+  }
+
+  .blog-footer--left-section {
+    width: 80%;
+  }
+
+  .blog-footer--right-section {
+    width: 80%;
+  }
+
+  .blog-footer-content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+
+  .email-address {
+    height: 40px;
+    width: 75%;
+    /* margin-top: -30px; */
+  }
+
+  .email-add-sent-img {
+    width: 40px;
+    height: 40px;
+    /* margin-top: -30px; */
+  }
+
+  .email-footer-sm-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: -30px;
+  }
+
+  .email-add-wrapper {
+    margin-bottom: 0px;
   }
 }

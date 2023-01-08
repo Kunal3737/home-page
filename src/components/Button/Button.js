@@ -13,9 +13,10 @@ const Button = (props) => {
 
   const size = props.size ? props.size : "";
   const removeBorderRadius = props.joinFrom ? props.joinFrom : "";
+  const fullWidth = props.fullWidth ? "fullWidth" : "";
   const buttonStyle = `button ${variant} ${size} ${
     "remove-border-radius--" + removeBorderRadius
-  }`;
+  } ${fullWidth}`;
 
   return (
     <button className={buttonStyle}>

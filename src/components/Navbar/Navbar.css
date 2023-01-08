@@ -25,7 +25,7 @@ li {
   /*box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;*/
 }
 .logo {
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 .nav-links {
   display: flex;
@@ -37,7 +37,7 @@ li {
 .nav-links li {
   /* color: #cfd0d1; */
   color: #000;
-  font-size: 20px;
+  font-size: 1.25rem;
   padding: 10px 20px;
   margin: 0 10px;
   cursor: pointer;
@@ -54,7 +54,7 @@ li {
 }
 .hero h1 {
   text-align: center;
-  font-size: 80px;
+  font-size: 5rem;
 }
 .mobile-menu-icon {
   display: none;
@@ -62,7 +62,7 @@ li {
 button {
   border: none;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.25rem;
   background: none;
 }
 @media (max-width: 768px) {
@@ -93,7 +93,7 @@ button {
     width: 100%;
     background-color: white;
   }
-  ul li {
+  ul .nav-items {
     padding: 32px;
     width: 100%;
     transition: all 0.5s ease-in-out;
@@ -105,6 +105,6 @@ button {
     right: 20px;
   }
   .hero h1 {
-    font-size: 50px;
+    font-size: 3.125rem;
   }
 }
