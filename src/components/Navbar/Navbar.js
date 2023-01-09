@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import { ImCross } from "react-icons/im";
 import Button from "../Button/Button";
@@ -16,18 +16,22 @@ const Navbar = () => {
           className={Mobile ? "nav-links-mobile" : "nav-links"}
           onClick={() => setMobile(false)}
         >
-          <Link to="/" className="home">
+          <NavLink to="/" exact className="home" activeClassName="selected">
             <li className="nav-items">Home</li>
-          </Link>
-          <Link to="/services" className="services">
+          </NavLink>
+          <NavLink
+            to="/services"
+            className="services"
+            activeClassName="selected"
+          >
             <li className="nav-items">Services</li>
-          </Link>
-          <Link to="/pricing" className="pricing">
+          </NavLink>
+          <NavLink to="/pricing" className="pricing" activeClassName="selected">
             <li className="nav-items">Pricing</li>
-          </Link>
-          <Link to="/about" className="about">
+          </NavLink>
+          <NavLink to="/about" className="about" activeClassName="selected">
             <li className="nav-items">About</li>
-          </Link>
+          </NavLink>
           <li className="nav-items">
             <Button size="lg" color="primary" content="Start a Company" />
           </li>
