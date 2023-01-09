@@ -270,7 +270,6 @@ const Home = () => {
               cost="$2,997"
               companyName="Rak Icc New Company formation includes"
               inclusiveList={featureList}
-              isBackground={true}
             />
             <PaymentCard
               location="SHARJAH MEDIA CITY"

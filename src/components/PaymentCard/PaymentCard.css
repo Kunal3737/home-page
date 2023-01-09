@@ -1,8 +1,6 @@
 .payment-card-wrapper {
   border-radius: 4px;
-
   flex: 1;
-  /* color: #fff; */
   padding: 15px 30px;
 }
 
@@ -11,20 +9,13 @@
 }
 
 .payment-card-wrapper:hover {
-  /* background-color: #5760ec; */
-
+  background-color: #5760ec;
   transform: scale(1.05);
   transition: transform 0.2s;
 }
 
-.payment-card-wrapper:hover > * {
-  /* color: #fff !important; */
-}
-
-.hasBackground .payment-card--location {
+.payment-card-wrapper:hover .payment-card--location {
   color: #fff;
-  font-size: 1.25rem;
-  margin-bottom: 12px;
 }
 
 .payment-card--location {
@@ -37,10 +28,8 @@
   margin-bottom: 12px;
 }
 
-.hasBackground .payment-card--cost {
-  font-size: 1.75rem;
+.payment-card-wrapper:hover .payment-card--cost {
   color: #fff;
-  font-weight: 900;
 }
 
 .payment-card--cost {
@@ -49,7 +38,7 @@
   font-weight: 900;
 }
 
-.hasBackground .payment-frequency {
+.payment-card-wrapper:hover .payment-frequency {
   color: #fff;
 }
 
@@ -57,11 +46,8 @@
   color: #adadad;
 }
 
-.hasBackground .payment-card--company-name {
+.payment-card-wrapper:hover .payment-card--company-name {
   color: #fff;
-  font-size: 1.125rem;
-  font-weight: 500;
-  margin-bottom: 12px;
 }
 
 .payment-card--company-name {
@@ -75,10 +61,7 @@
   margin-bottom: 12px;
 }
 
-.hasBackground .feature-list-item-wrapper {
-  display: flex;
-  align-items: center;
-  margin-bottom: 16px;
+.payment-card-wrapper:hover .feature-list-item-wrapper {
   color: #fff;
 }
 

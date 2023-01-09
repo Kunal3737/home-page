@@ -3,17 +3,9 @@ import Button from "../Button/Button";
 import "./PaymentCard.css";
 import Group35 from "../../assets/Group 35.png";
 
-const PaymentCard = ({
-  location,
-  cost,
-  companyName,
-  inclusiveList,
-  isBackground,
-}) => {
-  const backgroundStyle = isBackground ? "hasBackground" : "";
-
+const PaymentCard = ({ location, cost, companyName, inclusiveList }) => {
   return (
-    <div className={`${backgroundStyle} payment-card-wrapper`}>
+    <div className={`payment-card-wrapper`}>
       <div className="payment-card-content-wrapper">
         <h1 className="payment-card--location">{location}</h1>
         <div className="payment-card--cost-wrapper">
