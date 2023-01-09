@@ -384,29 +384,28 @@
   }
 
   .blog-footer--left-section {
-    width: 80%;
+    width: 90%;
   }
 
   .blog-footer--right-section {
-    width: 80%;
+    width: 90%;
   }
 
   .blog-footer-content-wrapper {
     display: flex;
     flex-wrap: wrap;
     text-align: left;
+    padding-left: 0;
   }
 
   .email-address {
     height: 40px;
-    width: 75%;
-    /* margin-top: -30px; */
+    width: 80%;
   }
 
   .email-add-sent-img {
     width: 40px;
     height: 40px;
-    /* margin-top: -30px; */
   }
 
   .email-footer-sm-wrapper {
@@ -417,5 +416,12 @@
 
   .email-add-wrapper {
     margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 426px) {
+  .study-image {
+    width: 100%;
+    height: 300px;
   }
 }

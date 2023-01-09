@@ -329,7 +329,12 @@ const Home = () => {
               <FooterItem title="About" list={aboutList} />
               <FooterItem title="Address" list={addressList} />
               {width > 768 && <FooterItem title="" list={officeDetails} />}
-              <FooterItem title="Subscribe to our Newsletter" list={[]} />
+              {width > 768 && (
+                <FooterItem title="Subscribe Now" list={subscribeNowText} />
+              )}
+              {width <= 768 && (
+                <FooterItem title="Subscribe to our Newsletter" list={[]} />
+              )}
               <div className="email-footer-sm-wrapper">
                 <div className="email-add-wrapper">
                   <input
